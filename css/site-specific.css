@@ -1,0 +1,114 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.text-left li {
+    font-size: 20px;
+}
+
+.logo-size {
+    max-height: 315px;
+    padding: 3em;
+}
+
+.tab-content {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+section,
+header {
+    flex: 1 1 auto;
+}
+
+.mission-icon-size {
+    max-height: 300px;
+}
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+}
+
+.navbar-logo {
+    height: 46px;
+    padding: 6px;
+}
+
+.portfolio-item {
+    padding: 0 2em;
+}
+
+.portfolio-item>p {
+    padding-bottom: 5em;
+    max-height: 5em;
+}
+
+.talk-act:hover {
+    color: #295989;
+}
+
+.form-control {
+    height: 40px;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+
+/* Space out and separate stacked portfolio-items */
+
+@media (max-width: 767px) {
+    .portfolio-item {
+        padding: 5em 0;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .portfolio-item:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    header .container {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    header .container {
+        padding-top: 100px;
+    }
+}
+
+
+/* IE11 flexbox fixes */
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    body {
+        height: 100%;
+    }
+    .navbar {
+        padding: 2em 0 6em;
+    }
+}
