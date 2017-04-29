@@ -16,6 +16,8 @@ Website for Climate Change Group at [www.climatechangegroup.org](www.climatechan
 
 index.js is the entry point and all dependencies are specified there. index.html is the main template.
 
+The project uses [PurifyCSS](https://github.com/webpack-contrib/purifycss-webpack). CSS classes that are added dynamically must be added to the whitelist in `webpack.config.js`.
+
 ## Deployment ##
 
 The site is hosted using Github Pages. The `/docs` folder is the entry point. Anything you commit to the `master` branch is *live*.

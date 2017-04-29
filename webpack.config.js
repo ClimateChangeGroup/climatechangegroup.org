@@ -39,7 +39,7 @@ module.exports = Object.assign(commonConfig, {
     minimize: true,
     purifyOptions: {
       // added dynamically, so not detected in index.html
-      whitelist: ['floating-label-form-group-with-value', 'floating-label-form-group-with-focus'],
+      whitelist: ['collapsing', 'floating-label-form-group-with-value', 'floating-label-form-group-with-focus'],
     },
   })),
 });
