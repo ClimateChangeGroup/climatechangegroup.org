@@ -4,7 +4,6 @@ import 'bootstrap/dist/js/bootstrap';
 
 // Vendor CSS
 import 'bootstrap/dist/css/bootstrap.css';
-import 'font-awesome/css/font-awesome.css';
 
 // Project CSS
 import '../scss/main.scss';
