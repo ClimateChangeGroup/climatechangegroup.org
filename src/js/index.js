@@ -1,7 +1,6 @@
 // Vendor JS
 import 'jquery';
 import 'bootstrap/js/collapse';
-import 'bootstrap/js/modal';
 import 'bootstrap/js/tab';
 import 'bootstrap/js/transition';
 
