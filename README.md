@@ -1,5 +1,5 @@
 # climatechangegroup.org
-Website for Climate Change Group at [www.climatechangegroup.org](www.climatechangegroup.org)
+Website for Climate Change Group at [www.climatechangegroup.org](http://www.climatechangegroup.org)
 
 ## Development tools ##
  1. [node](https://nodejs.org/en/) server
